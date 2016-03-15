@@ -5,11 +5,10 @@
  <name>APPizza</name>
   
  <description>
-        An Ionic Framework and Cordova project.
-    </description>
+Never fever</description>
   
- <author email="stefano.mitello@gmail.com" href="http://example.com.com/">
-      Stefano Mitello    </author>
+ <author email="stefano.mitello@gmail.com" href="http://example.com/">
+Stefano Mitello</author>
   
  <content src="index.html"/>
   <access origin="*"/>
