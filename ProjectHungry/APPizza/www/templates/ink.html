@@ -11,14 +11,16 @@
 
 <ion-view view-title="Login" align-title="left">
 
-    <ion-content >
+    <ion-content>
+	
+<div class="valign-wrapper">
    
         <div class="hero no-header flat">
              <div class="content">
 			 
                 <div class="app-icon"></div> 
 				  <!-- <center> <img src="img/watermelon1.gif" width="60px" height="60px">-->
-				   <i class="verified_user">Utente verificato</i></center>
+				   <!-- <i class="verified_user">Utente verificato</i></center> -->
                    <h1>APPizza!</h1>
                 </div>
       
@@ -29,7 +31,10 @@
 				
 				<!-- ============== INIZIO FORM ==================================================== -->		 
     
-               <div class="row">
+            <div class="row">
+			   
+			  <div class="card-panel"> 
+			   
                  <form class="col s12">
 				 
                    <div class="row">
@@ -55,14 +60,15 @@
                         <label for="icon_telephone">email</label>
                       </div>
                    </div>
-				   
-				   
-				   
-				   
+				 
+				  <center><button class="btn waves-effect waves-light" type="submit" name="action" href="#/app/components"> Avanti<i class="material-design-icons"></i> </button></center>
+				     
                  </form>
               </div>
 			  
-                <center><button class="btn waves-effect waves-light" type="submit" name="action" href="#/app/components"> Avanti<i class="material-design-icons"></i> </button></center>
+		    </div>
+			  
+
          
   
 
@@ -74,7 +80,7 @@
                </div>
 			 
 
-    
+ </div>   
    </ion-content>
 
 </ion-view>
